@@ -1,8 +1,51 @@
 :root{
 
   --primary-color: #2B2E32;
-  --background-color: #EFF2F5;
+  --background-color: #000000;
   --label-color: #FFFFFF;
 
-
 }
+
+body {
+  font-family: Palatino, "Palatino Linotype", "URW Palladio L", serif;
+  line-height: 1.2rem;
+  font-size: 100%;
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+
+label{
+  background-color: var(--label-color);
+  font-family: Palatino;
+  font-size: 1em;
+  height: 1.25em;
+  padding: 3px;
+  border-color: rgba(0,0,0,0.1);
+}
+
+button{
+  font-family: Palatino;
+  font-size: 1em;
+  color: var(--background-color);
+  background-color: #E0E0E0	;
+  height: 2.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border: none;
+  outline: none;
+  width: 50%;
+  font-weight: bold;
+}
+
+button:active{
+  transform: scale(0.95);
+}
+
+button:hover{
+  opacity: 90%;
+}
+
+

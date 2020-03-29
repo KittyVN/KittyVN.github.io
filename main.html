@@ -2,144 +2,74 @@
 <html lang="en">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Checkout Page</title>
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Link Page</title>
 
-  <style>
+    <style>
 
-    main{
-      display: flex;
-      justify-content: center;
-      margin-bottom: 1em;
-    }
-    
+        body {
+            display: grid;
+            grid-gap: 1.5rem;
+            padding-top: 0;
+        }
+
+        a{
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            text-decoration: none;
+        }
+
+        h1{
+            color: #E0E0E0;
+            display: flex;
+            justify-content: center;
+            padding-top: 12.5%;
+        }
+
+
+
     </style>
 
 </head>
 
 
-
 <body>
 
-<div id="header">
+<h1>All the Links you need :)</h1>
 
-  <a href="search.html">
-    <img  src="artmart_logo.png" alt="Artmart Logo">
-  </a>
-
+<div>
+    <a href="https://steamcommunity.com/id/KittyVisualNovels/">
+        <button>Steam Profile</button>
+    </a>
 </div>
 
-  <main>
-    <form class="checkout-form">
+<div>
+    <a href="https://steamcommunity.com/groups/KittyVisualNovels">
+        <button>Steam Group</button>
+    </a>
+</div>
 
-        <h1>
-            Contact Information
-        </h1>
-      <fieldset>
-          <legend></legend>
-          <div class="grid">
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email">
-        </div>
-      </fieldset>
+<div>
+    <a href="https://store.steampowered.com/curator/34401214/">
+        <button>Steam Curator</button>
+    </a>
+</div>
 
-        <h1 class="specialH1">
-            Shipping address
-        </h1>
-        <fieldset>
-            <legend></legend>
-            <div class="grid">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name">
-            </div>
+<div>
+    <a href="https://www.steamgifts.com/user/KittyVN">
+        <button>Steamgifts Profile</button>
+    </a>
+</div>
 
-
-            <div class="grid">
-                <label for="address">Address</label>
-                <input type="text" id="address" name="address">
-            </div>
-
-            <div class="grid">
-                <label for="city">City</label>
-                <input type="text" id="city" name="city">
-            </div>
-
-            <div class="grid">
-                <label for="country">Country</label>
-                <select id="country">
-                    <option value="austria">Austria</option>
-                </select>
-            </div>
-
-            <div class="grid">
-                <label for="postalCode">Postal Code</label>
-                <input type="text" id="postalCode" name="postalCode">
-            </div>
-
-            <div class="grid">
-                <label for="phone">Phone (optional)</label>
-                <input type="text" id="phone" name="phone">
-            </div>
-
-        </fieldset>
+<div>
+    <a href="https://www.steamgifts.com/group/pAbS3/kittyvisualnovels">
+        <button>Steamgifts Group</button>
+    </a>
+</div>
 
 
-        <h1 class="V2specialH1">
-            Card Details
-        </h1>
-        <fieldset>
-            <legend></legend>
-            <div class="grid">
-                <label for="cardname">Name on card</label>
-                <input type="text" id="cardname" name="cardname">
-            </div>
-
-            <div class="grid">
-            <label for="cardnumber">Card number</label>
-                <input type="text" id="cardnumber" name="cardnumber">
-            </div>
-
-
-            <div class="grid">
-            <label for="expiration">Expiration</label>
-                <input type="month" id="expiration" name="expiration" value="MM/YYYY">
-            </div>
-
-            <div class="grid">
-                <label for="cvc">CVC</label>
-                <input type="text" id="cvc" name="cvc">
-            </div>
-        </fieldset>
-
-        <div class="subtotal">
-            Subtotal: &euro; 194.50
-        </div>
-
-        <div class="shipping">
-            Shipping Costs: &euro; 15.00
-        </div>
-
-        <div class="total">
-            Total: &euro; 209.50
-        </div>
-
-
-        <div class="submitCheckout">
-            <a href="cart.html">
-                &larr; Back to Cart
-            </a>
-
-            <button type="submit" id="pay"> Pay</button>
-
-
-
-        </div>
-
-
-
-    </form>
-  </main>
 </body>
 
 </html>
